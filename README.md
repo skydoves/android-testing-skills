@@ -8,6 +8,10 @@ The skills are written for AI coding agents (Claude Code, Android Studio Agent m
 read fine for humans too: every API claim is grounded in an `androidx/` file path or an
 authoritative external doc, and every behavior note is sourced from primary research.
 
+> **Note.** You don't need all 54 skills. This is a catalog to pick from based on what your
+> project actually tests. Pull the Compose set if you write Compose UI tests, the ADB set if
+> you script CI, etc. Most projects use a handful at a time.
+
 54 skills across 7 sets:
 
 | Set | Skills | What it covers |
