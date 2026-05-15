@@ -1,5 +1,7 @@
 # Android Testing Skills
 
+<img width="1116" height="444" alt="cover" src="https://github.com/user-attachments/assets/0cb8280f-aa4c-425a-95a6-c17995e6b33d" />
+
 A library of [Agent Skills](https://agentskills.io) for **Android testing**, covering the full
 testing surface that an Android engineer touches, from unit-test fundamentals to ADB-driven E2E.
 The skills are written for AI coding agents (Claude Code, Android Studio Agent mode, Gemini) but
