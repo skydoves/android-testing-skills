@@ -1,6 +1,7 @@
 ---
 name: choosing-test-rule-vs-runtest
-description: Use this skill to pick the correct Compose UI test entry point. Compares `createComposeRule()`, `createAndroidComposeRule<A>()`, `createEmptyComposeRule()`, `runComposeUiTest { }`, and `runAndroidComposeUiTest<A> { }`, plus the v1 vs v2 split (`UnconfinedTestDispatcher` vs `StandardTestDispatcher`). Encodes the rule that mixing `runComposeUiTest { }` and a `ComposeTestRule` in the same test is forbidden, that `setContent` may only run once, and that `createEmptyComposeRule()` returns `ComposeTestRule` (no `setContent`). Use when the user asks "ComposeTestRule vs ComposeUiTest", reports `IllegalStateException: setContent can only be called once`, mentions `runComposeUiTest`, the v2 deprecation warning, `effectContext`, custom `ComponentActivity`, or "host tests need a coroutine scope".
+description: >-
+  Use this skill to pick the correct Compose UI test entry point. Compares `createComposeRule()`, `createAndroidComposeRule<A>()`, `createEmptyComposeRule()`, `runComposeUiTest { }`, and `runAndroidComposeUiTest<A> { }`, plus the v1 vs v2 split (`UnconfinedTestDispatcher` vs `StandardTestDispatcher`). Encodes the rule that mixing `runComposeUiTest { }` and a `ComposeTestRule` in the same test is forbidden, that `setContent` may only run once, and that `createEmptyComposeRule()` returns `ComposeTestRule` (no `setContent`). Use when the user asks "ComposeTestRule vs ComposeUiTest", reports `IllegalStateException: setContent can only be called once`, mentions `runComposeUiTest`, the v2 deprecation warning, `effectContext`, custom `ComponentActivity`, or "host tests need a coroutine scope".
 license: Apache-2.0. See LICENSE for complete terms.
 metadata:
   author: Jaewoong Eum (skydoves)
