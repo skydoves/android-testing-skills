@@ -1,6 +1,7 @@
 ---
 name: configuring-test-dependencies
-description: Use this skill to wire the correct Gradle dependency matrix for Jetpack Compose UI tests. Covers `androidTestImplementation("androidx.compose.ui:ui-test-junit4")`, the `debugImplementation("androidx.compose.ui:ui-test-manifest")` requirement that makes `createComposeRule()` work, the host-test (Robolectric) trio, the accessibility add-ons (`ui-test-accessibility`, `ui-test-junit4-accessibility`), and the `TestManifestGradleConfiguration` lint warning. Use when the user reports `ActivityNotFoundException: ComponentActivity`, `createComposeRule unresolved`, `lint warning ui-test-manifest`, `Cannot find test rule`, or asks "what dependencies do I need for Compose UI tests" / "why won't my Compose test compile".
+description: >-
+  Use this skill to wire the correct Gradle dependency matrix for Jetpack Compose UI tests. Covers `androidTestImplementation("androidx.compose.ui:ui-test-junit4")`, the `debugImplementation("androidx.compose.ui:ui-test-manifest")` requirement that makes `createComposeRule()` work, the host-test (Robolectric) trio, the accessibility add-ons (`ui-test-accessibility`, `ui-test-junit4-accessibility`), and the `TestManifestGradleConfiguration` lint warning. Use when the user reports `ActivityNotFoundException: ComponentActivity`, `createComposeRule unresolved`, `lint warning ui-test-manifest`, `Cannot find test rule`, or asks "what dependencies do I need for Compose UI tests" / "why won't my Compose test compile".
 license: Apache-2.0. See LICENSE for complete terms.
 metadata:
   author: Jaewoong Eum (skydoves)
